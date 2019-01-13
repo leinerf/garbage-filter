@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8977EA8D21EA88A400B13EED /* Camera(gray).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8977EA8C21EA88A400B13EED /* Camera(gray).jpg */; };
+		899E5FF821EAC13C00331A41 /* Default@2x~iphone~anyany.png in Resources */ = {isa = PBXBuildFile; fileRef = 899E5FF721EAC13C00331A41 /* Default@2x~iphone~anyany.png */; };
+		899E5FFA21EAC28500331A41 /* SplashScreen(New).png in Resources */ = {isa = PBXBuildFile; fileRef = 899E5FF921EAC28500331A41 /* SplashScreen(New).png */; };
 		C94AB15021E9CC8F004CC3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94AB14F21E9CC8F004CC3A4 /* AppDelegate.swift */; };
 		C94AB15221E9CC8F004CC3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94AB15121E9CC8F004CC3A4 /* ViewController.swift */; };
 		C94AB15521E9CC8F004CC3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94AB15321E9CC8F004CC3A4 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8977EA8C21EA88A400B13EED /* Camera(gray).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Camera(gray).jpg"; path = "../../../../Downloads/Camera(gray).jpg"; sourceTree = "<group>"; };
+		899E5FF721EAC13C00331A41 /* Default@2x~iphone~anyany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone~anyany.png"; path = "../../../../Downloads/ios screens/Default@2x~iphone~anyany.png"; sourceTree = "<group>"; };
+		899E5FF921EAC28500331A41 /* SplashScreen(New).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SplashScreen(New).png"; path = "../../../../Downloads/SplashScreen(New).png"; sourceTree = "<group>"; };
 		C94AB14C21E9CC8F004CC3A4 /* Garbage Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garbage Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94AB14F21E9CC8F004CC3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C94AB15121E9CC8F004CC3A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +60,12 @@
 		C94AB14E21E9CC8F004CC3A4 /* Garbage Filter */ = {
 			isa = PBXGroup;
 			children = (
+				899E5FF721EAC13C00331A41 /* Default@2x~iphone~anyany.png */,
 				C94AB14F21E9CC8F004CC3A4 /* AppDelegate.swift */,
 				C94AB15121E9CC8F004CC3A4 /* ViewController.swift */,
 				C94AB15321E9CC8F004CC3A4 /* Main.storyboard */,
+				8977EA8C21EA88A400B13EED /* Camera(gray).jpg */,
+				899E5FF921EAC28500331A41 /* SplashScreen(New).png */,
 				C94AB15621E9CC91004CC3A4 /* Assets.xcassets */,
 				C94AB15821E9CC91004CC3A4 /* LaunchScreen.storyboard */,
 				C94AB15B21E9CC91004CC3A4 /* Info.plist */,
@@ -123,7 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C94AB15A21E9CC91004CC3A4 /* LaunchScreen.storyboard in Resources */,
+				899E5FF821EAC13C00331A41 /* Default@2x~iphone~anyany.png in Resources */,
+				8977EA8D21EA88A400B13EED /* Camera(gray).jpg in Resources */,
 				C94AB15721E9CC91004CC3A4 /* Assets.xcassets in Resources */,
+				899E5FFA21EAC28500331A41 /* SplashScreen(New).png in Resources */,
 				C94AB15521E9CC8F004CC3A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +292,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7T2LH9BP6J;
+				DEVELOPMENT_TEAM = 56ZU5S345P;
 				INFOPLIST_FILE = "Garbage Filter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,8 +311,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7T2LH9BP6J;
+				DEVELOPMENT_TEAM = 56ZU5S345P;
 				INFOPLIST_FILE = "Garbage Filter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
